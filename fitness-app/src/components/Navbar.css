@@ -8,3 +8,54 @@
     height: 70px;
     width: 70px;
 }
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.buttonLeft{
+     
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 13px;
+    height: 30px;
+    background-color: #9147ff;
+    color: white;
+    padding: 0 20px;
+
+
+
+}
+.searcbtn{
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 13px;
+    height: 30px;
+    background-color: #908323;
+    color: white;
+    padding: 0 20px;
+}
+
+
+.buttonRight{
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 13px;
+    height: 30px;
+    background-color: #908323;
+    color: white;
+    padding: 0 20px;
+}

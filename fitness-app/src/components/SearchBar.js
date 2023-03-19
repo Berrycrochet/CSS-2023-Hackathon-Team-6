@@ -1,10 +1,10 @@
 import React from 'react'
-
+import "../components/Navbar.css"
 const SearchBar = ({setSearchTerm,searchMuscle}) => {
   return (
     <div>
         <input onChange={(e) => setSearchTerm(e.target.value)}/>
-        <button onClick={searchMuscle}>Search</button>
+        <button class="searcbtn" onClick={searchMuscle}>Search</button>
         
         
 

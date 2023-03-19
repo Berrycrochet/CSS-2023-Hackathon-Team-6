@@ -20,10 +20,11 @@ function Navbar() {
              <img className="my-image" src ={logo} />
           </div>
 
-
+         <div className='buttons'>
+        
 
         <div className='rightSide'>
-           <button onClick={handleClick}>Contact us</button>
+           <button className='buttonLeft' onClick={handleClick}>Contact us</button>
            {showText && <p>Za sva pitanja, komentare ili bilo kakve upite, možete nas kontaktirati putem sljedećih kanala:
 
             Email: info@primjer.com
@@ -36,7 +37,7 @@ function Navbar() {
 
             Radujemo se vašem kontaktu i pomoći vam u rješavanju bilo kojih pitanja koje imate.</p>}
 
-           <button onClick={handleThis}>About us</button>
+           <button className='buttonRight' onClick={handleThis}>About us</button>
            {applyText && <p>Dobrodošli na našu web stranicu! Mi smo tim stručnjaka s dugogodišnjim iskustvom u fitness industriji. Naš cilj je pomoći ljudima da postignu i održe svoju optimalnu tjelesnu kondiciju.
 
                 Naši treneri su visoko kvalificirani stručnjaci koji su posvećeni tome da vam pruže individualni pristup i pomoć u postizanju vaših ciljeva. Mi vjerujemo da svaki pojedinac ima jedinstvene potrebe i ciljeve, te pristupamo svakom klijentu sa takvim razumijevanjem.
@@ -49,7 +50,7 @@ function Navbar() {
 
            
         </div>
-      
+        </div>
      </div>
       
     
